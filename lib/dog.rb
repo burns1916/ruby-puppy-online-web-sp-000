@@ -1,4 +1,4 @@
-require "...pry"
+require 'pry'
 # Add your code here
 class Dog
 
