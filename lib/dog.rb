@@ -25,7 +25,7 @@ attr_reader :name
     end
   end
 
-  def self.save
+  def save
     @@all << self
   end
 
