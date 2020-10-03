@@ -23,7 +23,6 @@ attr_reader :name
     @@all.each do |dog|
         puts "#{@name}"
       end
-    end
   end
 
   def save
