@@ -21,7 +21,6 @@ attr_reader :name
 
   def self.print_all
     print @name
-      end
   end
 
   def save
