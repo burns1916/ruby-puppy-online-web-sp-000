@@ -22,7 +22,7 @@ attr_accessor :name
   def self.print_all
     @@all.each do |dog|
       puts "#{@name}"
-      pry
+      binding.pry
     end
   end
 
