@@ -23,6 +23,7 @@ attr_accessor :name
   def self.print_all
     self.each do |dog|
       puts "#{dog}"
+    end
   end
 
 
