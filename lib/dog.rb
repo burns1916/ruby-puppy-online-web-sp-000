@@ -21,7 +21,6 @@ attr_reader :name
 
   def self.print_all
     @@all.each do |dog|
-      dog.each do |name|
         puts "#{@name}"
       end
     end
